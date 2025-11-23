@@ -1,8 +1,9 @@
 "use client";
 
-import { useTheme } from "next-themes";
-import { ViewContainer } from "@/components/layouts";
 import Link from "next/link";
+import { useTheme } from "next-themes";
+import { Moon, Sun } from "lucide-react";
+import { ViewContainer } from "@/components/layouts";
 import {
   Button,
   DropdownMenu,
@@ -10,7 +11,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui";
-import { Moon, Sun } from "lucide-react";
 
 function SiteHeader() {
   const { setTheme } = useTheme();
